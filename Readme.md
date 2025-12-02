@@ -125,6 +125,8 @@ python -m pytest --cov=app tests/
 
 **Current Coverage Target**: >80% ✅
 
+![Test Coverage](tests.png)
+
 ***
 
 ## 📂 Project Structure
