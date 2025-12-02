@@ -36,8 +36,7 @@ Follow these steps to set up the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone <YOUR_REPO_LINK>
-cd trading_assignment
+git clone https://github.com/codedpool/trading_app
 ```
 
 ### 2. Environment Setup
@@ -125,7 +124,7 @@ python -m pytest --cov=app tests/
 
 **Current Coverage Target**: >80% ✅
 
-![Test Coverage](tests.png)
+![Test Coverage](public/tests.png)
 
 ***
 
