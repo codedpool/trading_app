@@ -94,6 +94,8 @@ uvicorn app.main:app --reload
 *   **API Documentation**: Open `http://127.0.0.1:8000/docs`
 *   **Strategy Endpoint**: GET `http://127.0.0.1:8000/strategy/performance`
 
+![API Preview](public/api.png)
+
 ### Method 2: Using Docker 🐳
 You can run the entire application inside a Docker container.
 
