@@ -1,0 +1,21 @@
+generator client {
+  provider                    = "prisma-client-py"
+  interface                   = "asyncio"
+  recursive_type_depth        = 5
+  enable_experimental_decimal = true
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model TickerData {
+  id       Int      @id @default(autoincrement())
+  datetime DateTime
+  open     Decimal
+  high     Decimal
+  low      Decimal
+  close    Decimal
+  volume   Int
+}

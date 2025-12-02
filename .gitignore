@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Prisma
+/prisma/*.db
+/prisma/*.db-journal
+
+# IDEs
+.vscode/
+.idea/
+
+# Data files (Assuming you don't want to commit the raw Excel file)
+HINDALCO_1D.xlsx
+
+# Testing / Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
